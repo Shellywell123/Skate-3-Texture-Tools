@@ -1,4 +1,5 @@
 @ECHO OFF
+mode 80,8
 :: batch file for launch modded skate 3 in rpcs3
 
 echo Welcome to Shellywell123's modded skate 3 launcher && echo.
