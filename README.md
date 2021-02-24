@@ -1,5 +1,15 @@
 # My Tool-kit / Manual for skate 3 mods
 
+Small project im working on to help making modding in RPCS3 Skate 3 easier. First off I want to give a big thanks to [GHFear's Youtube](https://www.youtube.com/watch?v=JG-TRIlTzpQ&ab_channel=GHFear) for the initial manual tutorial! Hope you enjoy this as much as I know I will.
+
+### Current Progress
+ - have successfully manually modded my own custom logo onto (RISE UP) griptape into the game on one deck (in game screenshot below).
+ - created a batch file to save removing install data in rpcs3, which is required each time you launch modded skate 3
+
+<p float="left">
+  <img src="Images/screenshot.png" width="400" />
+</p>
+
 ### Current Plan
  - make a program for easily edditting and importing moded textures into skate 3
  - potential griptape graphic editor
