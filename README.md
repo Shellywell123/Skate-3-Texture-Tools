@@ -27,7 +27,3 @@ Small project im working on to help making modding in RPCS3 Skate 3 easier. Firs
   - can noesis batch convert dds files back to psg
   - is createacharachter for proskaters and marquee for main player
   - can you recombine .big files to run in RPCS3 without having to delete hdd0/game/bles_install
-
-<p float="left">
-  <img src="Images/screenshot.png" width="400" />
-</p>
