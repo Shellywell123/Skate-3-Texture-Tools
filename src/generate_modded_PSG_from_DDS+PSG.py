@@ -41,18 +41,21 @@ def DDS_data_into_PSG(PSG_ORGINAL,DDS_MOD,PSG_MOD):
 if __name__ == "__main__":
     print('#'*30,'\nSkate-3-Texture-Tool\n','#'*30)
 
-    rootdir = 'gimp_files'
+    # first check for modded dds files
+    rootdir = 'Texture_Files/Modded_DDS'
     for dirpath, dirs, files in os.walk(rootdir):  
         for filename in files:
             if filename.split('.')[-1] == 'dds':
                 DDS_MOD = os.path.join(dirpath,filename)
-               # print(fname)
+                print(DDS_MOD)
 
                 filename_to_be_modded = DDS_MOD[len(rootdir)+1:-4]
-                PSG_ORGINAL = 'Unmodded_Game_Files/'+filename_to_be_modded+'.psg'
-                PSG_MOD     = 'Modded_Game_Files/'+filename_to_be_modded+'.psg'
+                print(filename_to_be_modded)
+                PSG_ORGINAL = 'Texture_Files/Original_PSG/'+filename_to_be_modded+'.psg'
+                PSG_MOD     = 'Texture_Files/Modded_PSG/'+filename_to_be_modded+'.psg'
                # print(filename_to_be_modded)
 
+               # second check if modded dds has a corresponding psg file to mod
                 if os.path.isfile(PSG_ORGINAL):
                     print('\nMOD TO BE IMPLEMENTED')
                     print(' - '+PSG_ORGINAL)
@@ -70,9 +73,4 @@ if __name__ == "__main__":
                     #if DDS relative PSG ver not found
                     PSG_ORGINAL = None
                     PSG_MOD = None
-
-
-        #     PSG_ORGINAL = file           
-
-        #     print(PSG_ORGINAL)
-        #     print(DDS_MOD)
+ 
