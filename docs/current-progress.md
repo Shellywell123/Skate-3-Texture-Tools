@@ -1,4 +1,4 @@
-#Current-Progress
+# Current-Progress
 
 ### Current Plan
  - make a program for easily edditting and importing moded textures into skate 3
