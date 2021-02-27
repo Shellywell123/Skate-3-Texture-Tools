@@ -1,4 +1,4 @@
-# My Tool-kit / Manual for skate 3 mods
+# Skate-3-Texture-Tools
 
 Small project I am currently working on to help make modding textures in Skate 3 (RPCS3 - PS3) more user friendly.
 
