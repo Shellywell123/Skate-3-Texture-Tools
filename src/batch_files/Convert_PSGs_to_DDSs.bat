@@ -2,4 +2,6 @@
 
 :: currently only launches Noesis
 set Noesis="C:\Users\benja\Documents\Tools\Skate Texture Mod\Noesis\Noesis.exe"
-%Noesis%
+%Noesis% ?cmode --help > cmdline.txt
+
+timeout 60
