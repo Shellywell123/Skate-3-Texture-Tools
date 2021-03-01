@@ -1,0 +1,6 @@
+#exclude originlal game files and 3rd party programs
+src/Texture_Files/Original_PSG/data/*
+src/Texture_Files/Original_DDS/data/*
+src/Texture_Files/riginal_BIG/data/*
+src/quickbms/*
+src/Noesis/*
