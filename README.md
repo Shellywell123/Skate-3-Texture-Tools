@@ -15,5 +15,6 @@ Just wanted to say a special thanks to the people who have contributed towards t
  - created a `.py` script to automate merging the PS3 formatted meta data of a `.psg` file with the modded image data in a `.dds` files, to generate a new playable modded `.psg` file.
 
 <p float="left">
-  <img src="Images/screenshot.png" width="400" />
+  <img src="Images/Custom_Grip_RiseUp.png" width="400" />
+  <img src="Images/Custom_Deck_RiseUp.png" width="400" />
 </p>
