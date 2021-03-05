@@ -1,0 +1,13 @@
+rom_dir="E:\ROMs\Playstation 3\Skate 3"
+rom_file="E:\ROMs\Playstation 3\Skate 3\PS3_GAME\USRDIR\EBOOT.BIN"
+original_dds_files="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Original_DDS\"
+original_psg_files="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Original_PSG\"
+original_big_files="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Original_BIG\"
+modded_dds_files="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Modded_DDS\"
+modded_psg_files="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Modded_PSG\"
+Noesis="C:\Users\benja\Documents\Tools\Skate Texture Mod\Noesis\Noesis.exe"
+quickbms="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\quickbms\quickbms\quickbms_4gb_files.exe"
+extract_script="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\quickbms\EA Skate BMS Scripts\extract_big_skate3.bms"
+rpcs3_dir="C:\Users\benja\LaunchBox\Emulators\PS3"
+
+

@@ -1,4 +1,6 @@
 # this will probably end up being converted to a batch script
+# still need to make it read in from paths.txt
+# currently runs in wsl not windows python
 
 import os
 

@@ -1,8 +1,7 @@
 @ECHO OFF
 :: batch file for converting all psg files in a dir to dds using noesis cmdline mode
-set Noesis="C:\Users\benja\Documents\Tools\Skate Texture Mod\Noesis\Noesis.exe"
-set original_dds_files=C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Original_DDS\
-set original_psg_files=C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\Texture_Files\Original_PSG\
+for /f "delims== tokens=1,2,3,4,5,6,7,8,9,10,11" %%G in (paths.txt) do set %%G=%%H
+
 :: 96 chosen as a temp char slicing solution until I split by substring
 Setlocal EnableDelayedExpansion
 for /R %original_psg_files% %%f in (*.psg) do (
@@ -13,7 +12,7 @@ for /R %original_psg_files% %%f in (*.psg) do (
 	echo  - !input_file:~96!
 	echo !input_file!|FindStr /i "model" >nul
 	if errorlevel 1 (
-		set output_file=%original_dds_files%!input_file:~96,-4!.dds
+		set output_file=%original_dds_files:~,-1%\!input_file:~96,-4!.dds
 		rem echo input  !input_file!
 		rem echo output !output_file!
 		md !dir_to_make!
