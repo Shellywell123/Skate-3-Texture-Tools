@@ -21,10 +21,10 @@ created batch files:
  - to automate importing my modded textures into the RPCS3 Skate 3 ROM directory on my machine
  - to automate extracting multiple `.big` files into `.psg` files in correct folder structure
  - to automate extracting every nested `.psg` file in a direcory into an identically nested `.dds` file using `Noesis` in cmdline mode.
- - as a main menu to call all the above batch scripts
+ - as a main menu to call all the above batch scripts\
 created a python scripts:
 - to automate merging the PS3 formatted meta data of a `.psg` file with the modded image data in a `.dds` files, to generate a new playable modded `.psg` file. (soon to be made batch)
 
 ### Current Usage
-(Still very much a work in progress, but feel free to try out my code and give feedback)
-[Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/how-to-use.md)
+(Still very much a work in progress, but feel free to try out my code and give feedback)\
+[how-to-use](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/how-to-use.md)
