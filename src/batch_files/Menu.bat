@@ -1,8 +1,9 @@
 @ECHO off
-echo. && echo Skate-3-Texture-Tools
-
 :start
+echo ############################################ && echo # Skate-3-Texture-Tools - by Shellywell123 # && echo ############################################
+
 ECHO.
+ECHO  0 - Set paths for your machine
 ECHO  1 - Batch extract BIG files to PSG
 ECHO  2 - Batch convert PSG files to DDS
 ECHO  3 - Batch convert PSG+DDS files to PSG with correct offsets
@@ -14,6 +15,7 @@ echo.
 set choice=
 set /p choice="Select option by number value: "
 if not '%choice%'=='' set choice=%choice:~0,1%
+if '%choice%'=='0' goto SetPaths
 if '%choice%'=='1' goto ExtractBIG
 if '%choice%'=='2' goto ConvertPSG
 if '%choice%'=='3' goto ConvertDDS
@@ -26,28 +28,40 @@ ECHO.
 goto start
 
 REM start of functions
+
+:SetPaths
+notepad "paths.txt"
+echo.
+goto start
+
 :ExtractBIG
-Extract_BIG_Files.bat
+start cmd /c "Extract_BIG_Files.bat"
+echo.
 goto start
 
 :ConvertPSG
-Convert_PSGto_DDS.bat
+start cmd /c "Convert_PSGto_DDS.bat"
+echo.
 goto start
 
 :ConvertDDS
-Convert_DDSs_to_PSGs_py.bat
+start cmd /c "Convert_DDSs_to_PSGs_py.bat"
+echo.
 goto start
 
 :ApplyMods
-Apply_Texture_Mods.bat
+start cmd /c "Apply_Texture_Mods.bat"
+echo.
 goto start
 
 :RevertMods
-Revert_Texture_Mods.bat
+start cmd /c "Revert_Texture_Mods.bat"
+echo.
 goto start
 
 :LaunchSkate3
-Launch_Skate_3.bat
+start cmd /c "Launch_Skate_3.bat"
+echo.
 goto start
 
 :end
