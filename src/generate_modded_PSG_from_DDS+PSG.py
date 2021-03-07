@@ -44,7 +44,7 @@ if __name__ == "__main__":
     print('#'*30,'\nSkate-3-Texture-Tool\n','#'*30)
 
     # first check for modded dds files
-    rootdir = 'Texture_Files/Modded_DDS'
+    rootdir = '..\\Texture_Files\\Modded_DDS'
     for dirpath, dirs, files in os.walk(rootdir):  
         for filename in files:
             if filename.split('.')[-1] == 'dds':
@@ -53,8 +53,8 @@ if __name__ == "__main__":
 
                 filename_to_be_modded = DDS_MOD[len(rootdir)+1:-4]
                 print(filename_to_be_modded)
-                PSG_ORGINAL = 'Texture_Files/Original_PSG/'+filename_to_be_modded+'.psg'
-                PSG_MOD     = 'Texture_Files/Modded_PSG/'+filename_to_be_modded+'.psg'
+                PSG_ORGINAL = '..\\Texture_Files\\Original_PSG\\'+filename_to_be_modded+'.psg'
+                PSG_MOD     = '..\\Texture_Files\\Modded_PSG\\'+filename_to_be_modded+'.psg'
                # print(filename_to_be_modded)
 
                # second check if modded dds has a corresponding psg file to mod
