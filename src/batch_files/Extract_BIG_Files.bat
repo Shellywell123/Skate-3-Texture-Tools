@@ -1,3 +1,4 @@
+@ECHO OFF
 ::batch file for extracting BIG files into psg 
 
 :: set paths
