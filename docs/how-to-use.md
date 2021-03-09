@@ -1,5 +1,5 @@
 # How-To-Use
-'currently only setup for BLES not BLUS and python hex conversion needs to be modified before use'
+ Note: I use this for playing `BLES` format, if you want to use `BLUS` format you will need to edit `src/batch_files/Launch_Sate_3.bat`
 
 ### Step 1 - Downloads
  - clone the repo
