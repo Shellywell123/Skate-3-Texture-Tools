@@ -15,7 +15,12 @@ Just wanted to say a special thanks to the people who have contributed towards t
 </p>
 
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
-
+Currently Moddable:
+ - Create a charachter textures such as clothing, skateboard parts, tatto and brand decals
+Crrently UnModdable:
+ - Menu textures
+ - start screen
+ - map textures such as sky or ground
 created batch files:
  - to automate removing `INSTALL` data in RPCS3, which is required each time you launch modded Skate 3
  - to automate importing my modded textures into the RPCS3 Skate 3 ROM directory on my machine
