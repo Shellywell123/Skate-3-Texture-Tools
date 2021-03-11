@@ -12,9 +12,9 @@ for /R %original_psg_files% %%f in (*.psg) do (
 	set input_file=%%f
 	set dir_to_make_base=%%~dpf
 	set dir_to_make=%original_dds_files%!dir_to_make_base:~%STRLENGTH%!
-	rem check if 'model' in filepath
+	rem exclude filepaths containing set strings
 	echo  - !input_file:~%STRLENGTH%!
-	echo !input_file!|FindStr /i "model" >nul
+	echo !input_file!|findstr /C:"aipaths" /C:"model"  >nul
 	if errorlevel 1 (
 		set output_file=%original_dds_files:~,-1%!input_file:~%STRLENGTH%,-4!.dds
 		rem echo input  !input_file!
@@ -23,6 +23,6 @@ for /R %original_psg_files% %%f in (*.psg) do (
 		%Noesis% ?cmode "!input_file!" "!output_file!"
 		echo converted && echo.
 	) else (
-		echo skipped as file path contains 'model' && echo.
+		echo skipped as file path contains an exclusion string && echo.
 	)
 )
