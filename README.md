@@ -8,11 +8,11 @@ Just wanted to say a special thanks to the people who have contributed towards t
   - [dustpancake](https://github.com/dustpancake) for helping with manipulating hexidecimal files
 
 <p float="left">
-  <img src="Images/Custom_Grip_RiseUp.png" width="400" />
-  <img src="Images/Custom_Deck_RiseUp.png" width="400" />
-  <img src="Images/Custom_Tattoo_RiseUp.png" width="400" />
-  <img src="Images/Custom_TShirt_RiseUp.png" width="400" />
-  <img src="Images/Custom_TeamLogo_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_Grip_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_Deck_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_TShirt_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_TeamLogo_RiseUp.png" width="400" />
 </p>
 
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
