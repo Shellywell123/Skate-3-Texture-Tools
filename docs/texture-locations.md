@@ -20,7 +20,7 @@ Documentation of skate 3 texture file locations within the orginal unextracted `
 `data/`\
     ┣`content/`\
         ┣`createacharacter/` \
-        |   ┣`texture/*` (for all edit skater textures)\
+         |   ┣`texture/*` (for all edit skater textures)\
         |\
         ┣`marquee/` \
         |   ┣`texture/*`(for all pro skaters and pedestrian textures)\
