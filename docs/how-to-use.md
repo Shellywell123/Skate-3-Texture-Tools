@@ -16,14 +16,14 @@
 
 ### Step 4 - extract big files
  - if you paths are correctly set in `src/batch_files/paths.txt` you should be able to open `src/batch_files/menu.bat` and select the 'batch extract big files' option, which should extract your big files into there correct file structures. The file structures can then be automatically pasted back into your rom folder by running `src/batch_files/menu.bat` and selecting the 'batch apply mod files' option. (your game should now be playable via `src/batch_files/menu.bat` and selecting 'launch skate 3')
- - if you need help chossing which `big` files to replace with there file structure, see [texture-locations]((https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/texture-locations.md))
+ - if you need help chossing which `big` files to replace with there file structure, see [texture-locations](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/texture-locations.md)
 
 ### Step 5 - convert alll extracted textures into moddable dds format
  - - if you paths are correctly set in `src/batch_files/paths.txt` you should be able to open `src/batch_files/menu.bat` and select the 'batch convert psg files' option.
 
 ### Step 6 - modding texture files 
  - open a extracted dds file and mod it however you like making sure to save it in a differnt location with same nested paths
-- if you need help chossing which `dds` files to mod, see [texture-locations]((https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/texture-locations.md))
+- if you need help chossing which `dds` files to mod, see [texture-locations](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/texture-locations.md)
 when exporting modded dds files check that the file dimensions match that of the original dds file
  - for deck, team logo graphics use compression DXT5/BC3 with generated minimaps
  - for tatto decals use compression DXT1/BC3 with generated minimaps
