@@ -10,6 +10,7 @@ ECHO  3 - Batch convert PSG+DDS files to PSG with correct offsets
 ECHO  4 - Batch Apply PSG Texture Mods
 ECHO  5 - Batch Revert Texture Mods
 ECHO  6 - Launch Modded/Unmodded Skate 3
+ECHO  7 - Exit
 echo.
 
 set choice=
@@ -22,6 +23,7 @@ if '%choice%'=='3' goto ConvertDDS
 if '%choice%'=='4' goto ApplyMods
 if '%choice%'=='5' goto RevertMods
 if '%choice%'=='6' goto LaunchSkate3
+if '%choice%'=='7' goto Quit
 
 ECHO "%choice%" is not valid, try again
 ECHO.
@@ -63,6 +65,9 @@ goto start
 start cmd /c "Launch_Skate_3.bat"
 echo.
 goto start
+
+:Quit
+exit
 
 :end
 pause
