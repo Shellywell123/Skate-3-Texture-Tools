@@ -4,6 +4,4 @@ src/Texture_Files/Original_DDS/data/
 src/Texture_Files/Original_BIG/data/*
 src/quickbms/*
 src/Noesis/*
-*.psg
-*.DDS
 *.BIG
