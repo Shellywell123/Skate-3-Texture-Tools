@@ -9,5 +9,7 @@ Noesis="C:\Users\benja\Documents\Tools\Skate Texture Mod\Noesis\Noesis.exe"
 quickbms="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\quickbms\quickbms\quickbms_4gb_files.exe"
 extract_script="C:\Users\benja\Programming\Python_Projects\Skate-3-Texture-Tools\src\quickbms\EA Skate BMS Scripts\extract_big_skate3.bms"
 rpcs3_dir="C:\Users\benja\LaunchBox\Emulators\PS3"
+set original_RX2_files=""
+set original_TGA_files=""
 
 

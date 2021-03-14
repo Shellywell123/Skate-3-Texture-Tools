@@ -1,7 +1,7 @@
 :: batch script for making a modded psg from a modded dds ad original psg
 @ECHO OFF
 :: set paths
-for /f "delims== tokens=1,2,3,4,5,6,7,8,9,10,11" %%G in (paths.txt) do set %%G=%%H
+for /f "delims== tokens=1,2,3,4,5,6,7,8,910,11,12,13" %%G in (paths.txt) do set %%G=%%H
 
 :: dec 584 = hex 248
 set PSG_OFFSET = 584

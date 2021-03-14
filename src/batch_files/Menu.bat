@@ -3,14 +3,21 @@
 echo ############################################ && echo # Skate-3-Texture-Tools - by Shellywell123 # && echo ############################################
 
 ECHO.
+ECHO RPCS3 - mods
 ECHO  0 - Set paths for your machine
-ECHO  1 - Batch extract BIG files to PSG
-ECHO  2 - Batch convert PSG files to DDS
-ECHO  3 - Batch convert PSG+DDS files to PSG with correct offsets
+ECHO  1 - Batch Extract BIG files to PSG
+ECHO  2 - Batch Convert PSG files to DDS
+ECHO  3 - Batch Convert Modded DDS files to PSG using the meta data of the Orginal PSG.
 ECHO  4 - Batch Apply PSG Texture Mods
 ECHO  5 - Batch Revert Texture Mods
 ECHO  6 - Launch Modded/Unmodded Skate 3
-ECHO  7 - Exit
+
+ECHO.
+ECHO XBOX - mods
+ECHO  7 - Batch Convert PSG files to DDS
+
+ECHO.
+ECHO  8 - Exit
 echo.
 
 set choice=
@@ -23,7 +30,8 @@ if '%choice%'=='3' goto ConvertDDS
 if '%choice%'=='4' goto ApplyMods
 if '%choice%'=='5' goto RevertMods
 if '%choice%'=='6' goto LaunchSkate3
-if '%choice%'=='7' goto Quit
+if '%choice%'=='7' goto ConvertRX2
+if '%choice%'=='8' goto Quit
 
 ECHO "%choice%" is not valid, try again
 ECHO.
@@ -42,7 +50,7 @@ echo.
 goto start
 
 :ConvertPSG
-start cmd /c "Convert_PSGto_DDS.bat"
+start cmd /c "Convert_PSG_to_DDS.bat"
 echo.
 goto start
 
@@ -63,6 +71,11 @@ goto start
 
 :LaunchSkate3
 start cmd /c "Launch_Skate_3.bat"
+echo.
+goto start
+
+:ConvertRX2
+start cmd /c "Convert_RX2_to_TGA.bat"
 echo.
 goto start
 

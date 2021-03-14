@@ -18,7 +18,7 @@ Just wanted to say a special thanks to the people who have contributed towards t
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
 
 Currently Moddable:
- - Create a charachter textures such as clothing, skateboard parts, tatto and brand decals
+ - Create a charachter textures such as clothing, skateboard parts, tattoo and brand decals
 
 Currently UnModdable:
  - Menu textures
@@ -36,5 +36,10 @@ Created a python scripts:
 - to automate merging the PS3 formatted meta data of a `.psg` file with the modded image data in a `.dds` files, to generate a new playable modded `.psg` file. (soon to be made batch)
 
 ### Current Usage
-(Still very much a work in progress, but feel free to try out my code and give feedback)\
+(Still very much a work in progress, but feel free to try out my code and give feedback)
+<p float="left">
+  <img src="docs/Images/RUN.png" width="400" />
+</p>
+
+
 [how-to-use](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/how-to-use.md)
