@@ -13,6 +13,8 @@ Just wanted to say a special thanks to the people who have contributed towards t
   <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="400" />
   <img src="docs/Images/Custom_TShirt_RiseUp.png" width="400" />
   <img src="docs/Images/Custom_TeamLogo_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_Coping_RiseUp.png" width="400" />
+
 </p>
 
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
