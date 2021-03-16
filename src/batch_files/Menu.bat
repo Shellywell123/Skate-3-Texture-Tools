@@ -50,7 +50,7 @@ echo.
 goto start
 
 :ConvertPSG
-start cmd /c "Convert_PSG_to_DDS.bat"
+start cmd /c "Convert_PSGs_to_DDSs.bat"
 echo.
 goto start
 
