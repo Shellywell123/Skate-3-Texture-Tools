@@ -21,11 +21,13 @@ Just wanted to say a special thanks to the people who have contributed towards t
 
 Currently Moddable:
  - Create a charachter textures such as clothing, skateboard parts, tattoo and brand decals
+ - Park creator object textures such as ledge spines and coping
 
 Currently UnModdable:
  - Menu textures
  - start screen
  - map textures such as sky or ground
+
 
 Created batch files:
  - to automate removing `INSTALL` data in RPCS3, which is required each time you launch modded Skate 3
