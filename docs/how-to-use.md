@@ -1,6 +1,21 @@
 # How-To-Use
  Note: I use this for playing `BLES` format, if you want to use `BLUS` format you will need to edit `src/batch_files/Launch_Sate_3.bat`
 
+<hr />
+
+## How to import my textures
+
+Note: when importing any modded texture into the game you are replacing the current texture, so I highly reccomend you back up a mod free version of your game before proceeding. You can either import the mods manually or via the batch scripts. 
+
+To manually import my modded textures into your game, you need to:
+ - 1 download the texture files inside [this github repo](https://github.com/Shellywell123/Skate-3-Texture-Tools/tree/main/src/Texture_Files/Modded_PSG/data/content)
+ - 2 copy those files into the `PS3_GAME\USRDIR\data\content\` of your rom file
+ - 3 delete the preivous rpsc3 cache data located in `rpcs3\dev_hdd0\game\BLES00760_INSTALL` then you can play them in game!
+
+<hr />
+
+## How to make your own modded textures
+
 ### Step 1 - Downloads
  - clone the repo
  - download Noesis [docs](http://www.richwhitehouse.com/noesis/nms/index.php?content=userman)
