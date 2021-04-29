@@ -7,7 +7,7 @@
 
 Note: when importing any modded texture into the game you are replacing the current texture, so I highly reccomend you back up a mod free version of your game before proceeding. You can either import the mods `A) manually` or `B) via the batch scripts`. 
 
-A) To manually import my modded textures into your game, you need to:
+## A) To manually import my modded textures into your game, you need to:
 ### Step 1 - Downloads
  - download the texture files inside [this github repo](https://github.com/Shellywell123/Skate-3-Texture-Tools/tree/main/src/Texture_Files/Modded_PSG/data/content)
 ### Step 2 copy files
@@ -15,7 +15,9 @@ A) To manually import my modded textures into your game, you need to:
 ### Step 3 clear cache
  - delete the preivous rpsc3 cache data located in `rpcs3\dev_hdd0\game\BLES00760_INSTALL` then you can play them in game! [the custom deck/grip is one of the stereo decks]
 
-B) To import my moddded textures using the batch script:
+<hr />
+
+## B) To import my moddded textures using the batch script:
 
 ### Step 1 - Downloads
  - clone the repo
