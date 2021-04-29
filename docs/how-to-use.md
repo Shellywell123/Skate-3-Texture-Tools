@@ -5,9 +5,9 @@
 
 ## How to import my textures
 
-Note: when importing any modded texture into the game you are replacing the current texture, so I highly reccomend you back up a mod free version of your game before proceeding. You can either import the mods `A) manually` or `B) via the batch scripts`. 
+Note: when importing any modded texture into the game you are replacing the current texture, so I highly reccomend you back up a mod free version of your game before proceeding. You can either import the mods `A)` manually or `B)` via the batch scripts. 
 
-## A) To manually import my modded textures into your game, you need to:
+## `A)` Manual import my modded textures:
 ### Step 1 - Downloads
  - download the texture files inside [this github repo](https://github.com/Shellywell123/Skate-3-Texture-Tools/tree/main/src/Texture_Files/Modded_PSG/data/content)
 ### Step 2 copy files
@@ -17,11 +17,11 @@ Note: when importing any modded texture into the game you are replacing the curr
 
 <hr />
 
-## B) To import my moddded textures using the batch script:
+## `B)` Script import my modded textures:
 
 ### Step 1 - Downloads
  - clone the repo
- - 
+ 
 ### Step 2 - set paths
  - each batch file uses paths relative to your own machine that need to be set when you first use them
  - all the paths can be set in `src/batch_files/paths.txt`
