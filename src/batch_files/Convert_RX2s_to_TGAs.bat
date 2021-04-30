@@ -1,6 +1,7 @@
 @ECHO OFF
 
 :: set all your paths for your machine
+for /f "delims== tokens=1,2,3,4,5,6,7,8,9,10,11,12,13" %%G in (paths.txt) do set %%G=%%H
 
 :: path slice amount
 (echo "%original_RX2_files%" & echo.) | findstr /O . | more +1 | (set /P RESULT= & call exit /B %%RESULT%%)
