@@ -17,7 +17,7 @@ for /R %original_RX2_files% %%f in (*.rx2) do (
 	echo  - !input_file:~%STRLENGTH%!
 	echo !input_file!|findstr /C:"aipaths" /C:"model"  >nul
 	if errorlevel 1 (
-		set output_file=%original_TGA_files:~,-1%!input_file:~%STRLENGTH%,-4!.dds
+		set output_file=%original_TGA_files:~,-1%!input_file:~%STRLENGTH%,-4!.tga
 		rem echo input  !input_file!
 		rem echo output !output_file!
 		md !dir_to_make!

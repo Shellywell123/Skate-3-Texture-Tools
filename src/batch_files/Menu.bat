@@ -14,7 +14,7 @@ ECHO  6 - Launch Modded/Unmodded Skate 3
 
 ECHO.
 ECHO XBOX - mods
-ECHO  7 - Batch Convert PSG files to DDS
+ECHO  7 - Batch Convert RX2 files to TGA
 
 ECHO.
 ECHO  8 - Exit
@@ -75,7 +75,7 @@ echo.
 goto start
 
 :ConvertRX2
-start cmd /c "Convert_RX2_to_TGA.bat"
+start cmd /c "Convert_RX2s_to_TGAs.bat"
 echo.
 goto start
 
