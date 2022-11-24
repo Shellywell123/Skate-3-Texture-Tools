@@ -4,12 +4,12 @@ Commandline tool to aid modding Skate 3 game Textures (RPCS3 - PS3 / Xenia - Xbo
 I plan to create a proper winforms application at some stage.
 
 <p float="left">
-  <img src="docs/Images/Custom_Grip_RiseUp.png" width="400" />
-  <img src="docs/Images/Custom_Deck_RiseUp.png" width="400" />
-  <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="400" />
-  <img src="docs/Images/Custom_TShirt_RiseUp.png" width="400" />
-  <img src="docs/Images/Custom_TeamLogo_RiseUp.png" width="400" />
-  <img src="docs/Images/Custom_Coping_RiseUp.png" width="400" />
+  <img src="docs/Images/Custom_Grip_RiseUp.png" width="500" />
+  <img src="docs/Images/Custom_Deck_RiseUp.png" width="500" />
+  <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="00" />
+  <img src="docs/Images/Custom_TShirt_RiseUp.png" width="500" />
+  <img src="docs/Images/Custom_TeamLogo_RiseUp.png" width="500" />
+  <img src="docs/Images/Custom_Coping_RiseUp.png" width="500" />
 </p>
 
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
@@ -33,7 +33,7 @@ Python scripts (to be rewritten as batch):
 
 ### Current Usage
 <p float="left">
-  <img src="docs/Images/RUN.png" width="400" />
+  <img src="docs/Images/RUN.png" width="1000" />
 </p>
 
 [how-to-use](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/how-to-use.md)
