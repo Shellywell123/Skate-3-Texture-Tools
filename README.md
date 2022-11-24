@@ -20,14 +20,13 @@ Just wanted to say a special thanks to the people who have contributed towards t
 ### [Current Progress](https://github.com/Shellywell123/Skate-3-Texture-Tools/blob/main/docs/current-progress.md)
 
 Currently Moddable:
- - Create a charachter textures such as clothing, skateboard parts, tattoo and brand decals
- - Park creator object textures such as ledge spines and coping
+ - "Create a character" textures such as clothing, skateboard parts, tattoos and brand decals
+ - "Park Creator" object textures such as ledge spines and coping
 
 Currently UnModdable:
  - Menu textures
- - start screen
- - map textures such as sky or ground
-
+ - Start screen
+ - Map textures such as sky or ground
 
 Created batch files:
  - to automate removing `INSTALL` data in RPCS3, which is required each time you launch modded Skate 3
@@ -36,7 +35,7 @@ Created batch files:
  - to automate extracting every nested `.psg` file in a direcory into an identically nested `.dds` file using `Noesis` in cmdline mode.
  - as a main menu to call all the above batch scripts
  
-Created a python scripts:
+Created a Python scripts (to be rewritten as batch):
 - to automate merging the PS3 formatted meta data of a `.psg` file with the modded image data in a `.dds` files, to generate a new playable modded `.psg` file. (soon to be made batch)
 
 ### Current Usage
