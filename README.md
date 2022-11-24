@@ -6,8 +6,10 @@ I plan to create a proper winforms application at some stage.
 <p float="left">
   <img src="docs/Images/Custom_Grip_RiseUp.png" width="500" />
   <img src="docs/Images/Custom_Deck_RiseUp.png" width="500" />
-  <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="00" />
+  
+  <img src="docs/Images/Custom_Tattoo_RiseUp.png" width="500" />
   <img src="docs/Images/Custom_TShirt_RiseUp.png" width="500" />
+  
   <img src="docs/Images/Custom_TeamLogo_RiseUp.png" width="500" />
   <img src="docs/Images/Custom_Coping_RiseUp.png" width="500" />
 </p>
